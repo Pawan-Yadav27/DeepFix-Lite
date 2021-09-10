@@ -152,8 +152,8 @@ To run the inferrence code file -
 I have prepared a demo script model_name_test.py. It can be invoked as follows
 python  model_name_test.py <input-csv-file> <output-csv-file>
 
-This command will generate an output file output-csv-file, that includes the inputs from the input-csv-file(i.e. test.csv) and a new column fixedTokens
-corresponding to your model prediction. 
+- This command will generate an output file output-csv-file, that includes the inputs from the input-csv-file(i.e. test.csv) and a new column fixedTokens 
+  corresponding to your model prediction. 
 
 I have already evaluted Bidirectional-LSTM model on 'test.csv' file and 'test_output.csv' can be found in root directory.
 
