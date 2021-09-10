@@ -57,13 +57,14 @@ fixed line (targetLineText).
 
 ### Model Performance : 
 When I say m% token-level accuracy is achieved it means m% tokens are matched from the output produced by network.
+
 I have used three different model architecture-
 - LSTM 
 - Bidirectional-LSTM 
 - Bidirectional-LSTM with Attention 
 
-Model name | LSTM | Bidirectional-LSTM | Bidirectional-LSTM with Attention
-Accuracy | 91.10% | 93.20% | 96.0%
+|Model name | LSTM | Bidirectional-LSTM | Bidirectional-LSTM with Attention |
+|Accuracy | 91.10% | 93.20% | 96.0% |
 
 
 ### Tips :
