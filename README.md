@@ -56,8 +56,15 @@ fixed line (targetLineText).
 ------------------------------------------
 
 ### Model Performance : 
-- 91% token-level accuracy is achieved i.e 91% tokens are matched from the output produced by network.
-- 33% of programs is correctly being fixed among all the programs. 
+When I say m% token-level accuracy is achieved it means m% tokens are matched from the output produced by network.
+I have used three different model architecture-
+- LSTM 
+- Bidirectional-LSTM 
+- Bidirectional-LSTM with Attention 
+
+Model name | LSTM | Bidirectional-LSTM | Bidirectional-LSTM with Attention
+Accuracy | 91.10% | 93.20% | 96.0%
+
 
 ### Tips :
 I am providing some tips for you to get started. These are by no means exhaustive.
@@ -143,7 +150,8 @@ To run the inferrence code file -
 python  model_name_test.py <input-csv-file> <output-csv-file>
 
 This command will generate an output file output-csv-file, that includes the inputs from the input-csv-file(i.e. test.csv) and a new column fixedTokens
-corresponding to your model prediction.
+corresponding to your model prediction. 
+I have already evaluted Bidirectional-LSTM model on 'test.csv' file and 'test_output.csv' can be found in root directory.
 
 </div>
 
