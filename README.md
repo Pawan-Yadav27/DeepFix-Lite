@@ -14,10 +14,10 @@ introductory programming assignments and contain single-line errors.
 
 ------------------------------------------
 ### Goal :
-The goal of this assignment is to design, implement and evaluate a deep learning based
+The goal of this project is to design, implement and evaluate a deep learning based
 solution to fix syntactic errors in C programs. The programs were written by students in
 introductory programming assignments and contain single-line errors. Completing this
-assignment will require preparing the data for deep learning, implementing a deep learning
+project will require preparing the data for deep learning, implementing a deep learning
 model for sequence-to-sequence translation (that is, from a buggy program to its fix), and
 training and evaluating the deep learning model.
 
